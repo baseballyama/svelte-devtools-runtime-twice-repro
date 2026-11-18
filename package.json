@@ -6,7 +6,8 @@
     "dev:abs": "CASE=abs vite --force",
     "dev:bare": "CASE=bare vite --force",
     "dev:linked": "CASE=linked vite --force",
-    "dev:abs-fixed": "CASE=abs-fixed vite --force"
+    "dev:abs-fixed": "CASE=abs-fixed vite --force",
+    "dev:linked-include": "CASE=linked-include vite --force"
   },
   "dependencies": {
     "devtools-runtime": "file:./packages/devtools-runtime",
