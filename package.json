@@ -1,0 +1,22 @@
+{
+  "name": "svelte-devtools-runtime-twice-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.9.1",
+  "scripts": {
+    "dev:abs": "CASE=abs vite --force",
+    "dev:bare": "CASE=bare vite --force",
+    "dev:linked": "CASE=linked vite --force",
+    "dev:abs-fixed": "CASE=abs-fixed vite --force"
+  },
+  "dependencies": {
+    "devtools-runtime": "file:./packages/devtools-runtime",
+    "devtools-runtime-linked": "link:./packages/devtools-runtime-linked",
+    "svelte": "github:sveltejs/svelte#577c8973239b38ed8a33397970ec10220a5a7ec1&path:packages/svelte",
+    "ui-lib": "file:./packages/ui-lib"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "vite": "8.3.5"
+  }
+}

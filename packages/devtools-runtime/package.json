@@ -1,0 +1,7 @@
+{
+  "name": "devtools-runtime",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": { "./runtime.js": "./runtime.js", "./runtime-fixed.js": "./runtime-fixed.js" },
+  "peerDependencies": { "svelte": "^5.0.0" }
+}

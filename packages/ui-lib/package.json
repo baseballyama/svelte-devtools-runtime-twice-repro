@@ -1,0 +1,8 @@
+{
+  "name": "ui-lib",
+  "version": "1.0.0",
+  "type": "module",
+  "svelte": "./index.js",
+  "exports": { ".": { "svelte": "./index.js", "default": "./index.js" } },
+  "peerDependencies": { "svelte": "^5.0.0" }
+}

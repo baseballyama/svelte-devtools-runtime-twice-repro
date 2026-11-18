@@ -1,0 +1,6 @@
+{
+  "name": "devtools-runtime-linked",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": { "./runtime.js": "./runtime.js" }
+}
